@@ -27,7 +27,7 @@ export type Props = {
   /**
    * Function to execute on press.
    */
-  onPress?: null | ((params?: GestureResponderEvent) => void) | undefined;
+  onPress?: (params?: GestureResponderEvent) => void;
   /**
    * @optional
    */
